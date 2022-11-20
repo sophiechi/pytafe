@@ -28,9 +28,9 @@ def main():
         print("-------------------------------------------------------------------")
 
         if options == '1':
-            Enter_daily_hour_report()
+            enter_daily_hour_report()
         elif options == '2':
-            Produce_hour_report()
+            produce_hour_report()
         elif options == '3':
             print("Exiting the menu\n")
             break
@@ -40,7 +40,7 @@ def main():
     # Exit
 
 
-def Enter_daily_hour_report():
+def enter_daily_hour_report():
     print("Welcome to Employee Report")
     week_num = input("Enter current working week number: ")
     count1 = 0
@@ -143,7 +143,7 @@ def Enter_daily_hour_report():
     return None
 
 
-def Produce_hour_report():
+def produce_hour_report():
     # g)
     print("""===================================================================
      ************** Produce Hours Worked Report **************
